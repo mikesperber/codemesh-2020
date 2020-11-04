@@ -15,8 +15,6 @@ Otherwise:
 
 - install [Docker](https://www.docker.com/)
 - give Docker at least 6GB RAM where relevant
-- in the `docker-ghcide` directory, say do `docker build -t ghcide .`
-  (this might take a while)
 - install [Visual Studio Code](https://code.visualstudio.com/download)
 - install VS Code Extension "Remote - Containers" 
 - select  "View" -> "Command Palette" (some modifiers + P), type
