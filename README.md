@@ -9,7 +9,8 @@ If there are problems with the setup, e-mail Mike Sperber.
 
 # Preparation
 
-If you have a working Haskell/Cabal setup, things might just work.
+If you have a working Haskell/Cabal setup for ghc 8.8, things might
+just work.  (ghc 8.10 will not work.)
 
 Otherwise:
 
