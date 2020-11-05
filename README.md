@@ -34,10 +34,12 @@ The `Sync` module has two functions `gameAlong` and
 
 ## UI version
 
+- you'll need to comment out the `buildable: False` line
+
 - in the `hearts` directory, run `./docker-shell.sh` to start a
   suitable shell in a Docker container
 
-- inside the Docker container, do `cabal build` to build the server
+- inside the Docker container, do `cabal update && cabal build` to build the server
 
 - inside the Docker container, do `./run-server-inside-docker.sh` to
   start the server

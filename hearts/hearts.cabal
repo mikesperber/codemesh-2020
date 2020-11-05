@@ -14,11 +14,8 @@ library
   build-depends:       base
                      , cond
                      , containers
-                     , free
-                     , mtl
                      , random
-                     , transformers
-                     , polysemy, polysemy-plugin
+                     , polysemy == 1.3.0.0, polysemy-plugin == 0.2.5.1
 
   hs-source-dirs:      src
 
@@ -30,7 +27,7 @@ executable server
   main-is:             Main.hs
 
   -- Comment this out if you want to run the game
-  buildable:          False
+--  buildable:          False
 
   other-modules: Args, Serialization, PlayerServer, TableServer
 
@@ -46,7 +43,7 @@ executable server
                      , wai-cors
                      , warp
                      , containers
-                     , polysemy, polysemy-plugin
+                     , polysemy == 1.3.0.0, polysemy-plugin == 0.2.5.1
 
   hs-source-dirs:      app
 
